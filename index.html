@@ -8,12 +8,15 @@
 </head>
 
 <body>
-
   <h1>Emoji Discussion</h1>
 
-  <textarea id="input" placeholder="文章を入力..."></textarea>
-
-  <div id="output"></div>
+  <div
+    id="editor"
+    class="editor"
+    contenteditable="true"
+    spellcheck="false"
+    data-placeholder="ここに入力..."
+  ></div>
 
   <script src="script.js"></script>
 </body>
